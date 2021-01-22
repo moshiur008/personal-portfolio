@@ -1,0 +1,179 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color:#3E3E3E;
+}
+
+nav {
+    width:80%;
+    margin:0 auto;
+}
+nav ul {
+    text-align:right;
+}
+
+nav li{
+    list-style:none;
+    display:inline-block;
+}
+
+nav ul li a {
+    display:block;
+    padding: 0 20px;
+    color:#3c3c3c;
+    text-decoration: none;
+    line-height:1.7;
+}
+
+section {
+    width:80%;
+    margin:0 auto;
+    padding:40px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #363958;
+}
+
+.orange-highlight {
+    color:#FF8367
+}
+
+.half-width {
+    display:inline-block;
+    width:50%;
+    box-sizing: border-box;
+    float:left;
+}
+
+.half-width h1{
+    font-size:50px;
+    margin-bottom:0;
+    padding-top:100px;
+    
+}
+
+h1.orange-highlight {
+    margin-top:0;
+    padding-top:0;
+}
+
+.half-width p {
+    font-size:16px;
+    padding:25px 0;
+}
+
+a.btn {
+    display:inline-block;
+    padding:20px 20px;
+    color:#fff;
+    background-image: linear-gradient(to bottom, #F56160, #FC7762);
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.half-width img {
+    max-width:75%;
+    float: right;
+}
+
+.clearfix::after{
+    content: "";
+    display:block;
+    clear:both;
+}
+
+.about .half-width img {
+
+    float: left;
+}
+
+#works, #testimonial {
+    background-color: #F8F9FC;
+    padding-bottom: 30px;
+}
+
+.one-third {
+    width:33.33%;
+    box-sizing: border-box;
+    float:left;
+}
+
+.single-work {
+    background-color: #fff;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0px 0px 10px gray;
+    margin-right:40px;
+}
+
+.single-work img {
+    max-width: 100%;
+}
+
+#works h2 {
+    font-size:50px;
+    text-align: center;
+}
+
+#contact-inner {
+    width:80%;
+    margin:0 auto;
+    background-image: url(img/contact-bg.png);
+    height:300px;
+    background-size: cover;
+    background-position: center;
+    padding:100px 50px;
+    box-sizing: border-box;
+}
+
+#contact-inner h2 {
+    font-size:50px;
+    color:#fff;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+#contact-inner a.btn {
+    float:right;
+    margin-top: 10px;
+}
+
+#contact {
+    padding:80px 0;
+}
+
+#testimonial section {
+    max-width:700px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#testimonial h2 {
+    font-size: 50px;
+}
+
+#testimonial section blockquote {
+    font-size:20px;
+}
+
+#testimonial section blockquote i.fa-quote-left {
+    margin-right: 20px;
+}
+
+#testimonial section blockquote i.fa-quote-right {
+    margin-left: 20px;
+}
+
+#footer {
+    text-align:center;
+}
+
+#footer h3 {
+    text-transform:uppercase;
+    color:gray;
+}
+
+#footer img {
+    max-width: 40px;
+    margin-right: 10px;
+}
